@@ -7,8 +7,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-  //    title: 'Task Manager!',
-    //  theme: ThemeData(primarySwatch: Colors.blue),
+      //    title: 'Task Manager!',
+      //  theme: ThemeData(primarySwatch: Colors.blue),
       home: MyHomePage(),
     );
   }
@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Column(
         children: [
-        //  Progress(),
+          //  Progress(),
           TaskList(),
         ],
       ),
@@ -52,7 +52,6 @@ class TaskList extends StatelessWidget {
         TaskItem(label: 'Update Weekly stats'),
         TaskItem(label: 'Update log book'),
         TaskItem(label: 'Update Attendance'),
-
       ],
     );
   }
